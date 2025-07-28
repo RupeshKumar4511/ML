@@ -177,6 +177,7 @@ For self-driving-car, the environment is road.
 <br>
 <br>
 
+# Types of ML : 
 On the basis of how ML models behaves in production environment, ML is of two types :
 <br>
 <br>
@@ -187,6 +188,10 @@ It is the conventional approach where a model is trained using the entire availa
 <br>
 Note : Company can pull down the previous data and add new data to it and train model and then deployed on 
 the server again. This cycle can be repeated after some time like after 24 hrs. 
+<br>
+It is used where there is no concept drift. like : Image-Classification etc. 
+<br>
+Tools used : scikit-learn, tensorflow, Pytorch.
 <br>
 Disadvantage of Batch ML : 
 <br>
@@ -209,7 +214,7 @@ Online Machine Learning is a type of machine learning where the model is trained
 <br>
 As these data chunk is very small so that models can be trained on the server using these data. 
 <br>
-Examples : Chat bots like siri etc
+Examples : Chat bots like siri etc.
 <br>
 <br>
 
@@ -231,7 +236,9 @@ How to implement Online Learning :
 do online ML. 
 <br>
 <br>
-Learning Rate : It means how frequently we update our model. 
+Learning Rate : 
+<br>
+It means how frequently we update our model. 
 <br>
 <br>
 Out of core Learning : 
@@ -253,5 +260,27 @@ To prevent model from this risk, there should be monitoring system which continu
 request and if there is anomaly in the incoming request then monintoring system can reject that request. 
 <br>
 Another if any risk occurs then we must have the facility of rollback to go to the previous state. 
+<br>
+
+
+
+# Types of ML : 
+On the basis of how ML model learns : 
+<br>
+1. Instance based Learning : 
+<br>
+It is a type of lazy learning method in machine learning where the model memorizes the data and makes predictions by comparing new examples to stored ones.
+<br>
+Example : Using KNN.
+<br>
+<br>
+2. Model based Learning : 
+<br>
+Model-Based Learning is a machine learning approach where the algorithm builds a general model from training data before making predictions. In simple words, it learn patterns and relationships in the data during training and then use that model for predictions.
+<br>
+Example : Using Linear Regression, Logestic Regression etc.
+
+
+
 
 
