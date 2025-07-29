@@ -1,10 +1,12 @@
 # AI 
 It refers to the ability of computer systems to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
 <br>
-Note : ML is a subset of AI and DL is a subset of ML. And AI means providing "Intelligence" to machine. 
+Note : ML is a subset of AI and DL is a subset of ML. And AI means providing 
+"Intelligence" to machine. 
 <br>
-Today's AI is subset of human intelligence (Pattern recognition) because human intelligence is made up multiple 
-things like Pattern recognition, Imagination, emotional intelligence. 
+Today's AI is subset of human intelligence (Pattern recognition) because human 
+intelligence is made up multiple things like Pattern recognition, Imagination, emotional 
+intelligence. 
 <br>
 The first wave of AI is called "Symbolic AI" in which knowledge-based system and expert system was made. 
 <br>
@@ -186,7 +188,7 @@ On the basis of how ML models behaves in production environment, ML is of two ty
 <br>
 It is the conventional approach where a model is trained using the entire available dataset at once. The training process happens offline, meaning the model does not learn or update in real time. Once trained, the model is deployed and used for inference on new data without further training. This is its main disadvantage.
 <br>
-Note : Company can pull down the previous data and add new data to it and train model and then deployed on 
+Note : We can pull down the model from the server and add new data to it and train model again and then deployed on 
 the server again. This cycle can be repeated after some time like after 24 hrs. 
 <br>
 It is used where there is no concept drift. like : Image-Classification etc. 
@@ -250,8 +252,9 @@ deployed model to server. This concept is called Out of core Learning.
 <br>
 <b>Disadvantage of Online ML : </b>
 <br>
-1. Tricky to use : There are few libraries which we can use to train model. For the enterprized application,
-where the data is so large, it is difficult to process these data to train model using these libraries.  
+1. Tricky to use : There are few libraries which we can use to train model. For the 
+enterprized application,where the data is so large, it is difficult to process these data 
+to train model using these libraries.  
 <br>
 2. Risky : If the behavior of our model depends on incoming request and suppose if anyone hackes the incoming 
 request then it is risky for our model because it can make our model biased. 
@@ -281,6 +284,70 @@ Model-Based Learning is a machine learning approach where the algorithm builds a
 Example : Using Linear Regression, Logestic Regression etc.
 
 
+# Chalanges in ML : 
+<b>1. Data collection: </b> 
+<br>
+In company level ML project we get the data by "making api calls" and "web scraping". 
+<br>
+Fetching the data by these two methods can cause many problems. 
+<br>
+<b>2. Insufficient Data / Labelled Data  :</b>
+If we have Insufficient data then we may faces many difficulties to train a model. 
+<br>
+Getting the labelled data is also very costly. 
+<br>
+Note : When we have enough data then it does not matter which algorithm we are using. 
+And this is called Unreasonable Effectiveness of data. 
+<br>
+But in present gathering enough data in proper format is very tricky. So algorithm matter. 
+<br>
+<b>3. Non Representative data : </b>
+<br>
+If we have not complete dataset then our model will not give more accuracy. This is also 
+called Sampling Noise. 
+<br>
+Sometimes data can be biased which also called sampling bias. for Example : We coducted a 
+survey to know who will win T-20 World-Cup in which we took response from all countries 
+who will participate in the World-Cup. But in this survery, most people vote for "India"
+because these people supports india which lives in India as well as in other country.
+<br>
+<b>4. Poor Quality Data : </b>
+<br>
+Data may contains outliers, missing value, data in improper format and other things which need to be clean before training a model on thes data. 
+<br>
+Note : It is said that "ML Engineers spend 60% of time on cleaning the data while training a model."
+<br>
+<b>5. Irrelevant Features : </b>
+<br>
+If we have Irrelevant features in our dataset then our model will not perform good. 
+<br>
+Example : If we have a dataset which is used to predict who will participate in the 
+marathon. And the data set contains some field like Age, Height, Weight and Location. 
+Then in this case Location is Irrelevant features because it does not affect the result.
+<br>
+<b>6. Overfitting : </b>
+Overfitting in machine learning occurs when our model memorizes data, not understanding the pattern. And this type of model will not work on new data. 
+<br>
+<b>7. Underfitting : </b> 
+It is just opposite of overfitting. Underfitting in machine learning occurs when a model
+is too simple to capture the underlying patterns in the data. As a result, it performs 
+poorly on both the training data and unseen data (test set).
+<br>
+Example : Always trying to fit a straight line to data shaped like a curve or spiral.
+<br>
+<b>8. Software Integration : </b>
+ML model always integrates with some software to help users. 
+<br>
+It is not easy to integrate the model with software because of different plateform. 
+like : linux, windows etc. 
+<br>
+<b>9. Offline Learning / Deployment</b>
+<br>
+In Offline Learning if we need to update model the we need to pull down the model from server and add new data 
+to it and train model again and then deployed on the server again which is very costly. 
+<br>
+<b>10. Cost Involved : </b>
+Server cost of Ml model is generally very high. 
 
 
 
