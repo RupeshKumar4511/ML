@@ -349,5 +349,76 @@ to it and train model again and then deployed on the server again which is very 
 <b>10. Cost Involved : </b>
 Server cost of Ml model is generally very high. 
 
+# Application of ML : 
+<b>Application of ML in B2C (Business to Customer)   : </b>
+1. Youtube uses ML to suggest videos. 
+<br>
+2. Facebook/Instagram uses ML to give friend recommendation. 
+<br>
+3. Chatbots. 
+<br>
+<br>
+<b>Application of ML in B2B (Business to Business) : </b>
+<br>
+It helps Businesses to grow and earn more profit. 
+<br>
+<b>1. Retail - Amazon/Big Bazaar : </b>
+<br>
+Example : (I) Companies like Amazon, flipkart etc. offers Sale on festivals in which they reduces the prices of 
+product and increase the stock of product. But they do not increase the stock of every product. They provide 
+last 2 or 3 years customer's purchase related data to their ML Engineers and these engineers gives insights 
+from these data to company by applying ML algorithm on these data.  
+<br>
+(II) When we purchase any product from super-market then they ask our mobile No to make bills. The main reason
+behind it is that they create customer purchase related profile by using their mobile no. They want to understand our buying pattern. Like if anyone buys healthy products then it means that person is 
+health-oriented he would prefer to go GYM. In this case these super-market can sell these data to GYM owner and earn profit. 
+<br>
+(III) In super market, how the things are placed so that company can get maximum profit.
+It is very difficult to place the things at correct positions. In such case we can use 
+Association Rule Learning. We can analyze customer bills and find some hidden patterns. 
+like : People purchase egg along with milk so there is strong association between milk and 
+egg. so we need to place egg with milk.
+<br>
+<br>
+<b>2. Banking and Finance Sector : </b>
+<br>
+Example : (I) When we apply for a loan to any bank then there are types of profile verification is done. 
+first verification is done by using ML algorithm. ML Engineers compare our profile with some previous defaulters
+who did not payback the money. If there is strong correlation between them and us then our loan will be 
+rejected. If there is less correlation then a manual verification is done by bank employee and loan will be 
+sanctioned. 
+<br>
+Ml is widely used in stock market and trading and other finance sectors. 
+<br>
+<br>
+<b>3. Transport- OLA : </b>
+<br>
+Example: (I) There is very high differece in OLA taxi's fares in evening and other times. It is because
+there are some offices point where a lot of employee works. But these places are generally at far places. 
+But in evening time a lot of people book OLA taxi's. But the taxi driver don't want to go to these far places. 
+But OLA offers cab drivers to pay double and that's why OLA increases the fare. These places are find out by
+using ML.
+<br>
+ML is also used in google map. 
+<br>
+<br>
+<b>4. Manufactoring - Tesla: </b>
+<br>
+In Tesla company, automobiles are made by robots. Tesla cars are booked six months before it actually
+manufactured. So the company works by following some schedule and suppose one day a robot whose job is to place 
+the engine in the car is malfunction then on that day no cars will be made and it is big loss for that company
+because they are following schedule. To prevent from these type of risk they fixed "IOT" device is fixed in
+robots which continuously moniters their pressure,rpm etc. We know faults occurs gradually in any machine. 
+And if any anomalous behaviour detected in any robot then those robots will be fixed by engineers. This is 
+called predictive mentainance.
+<br>
+<br>
+<b>5. Consumer Internet- Twitter : </b>
+<br>
+Most of the social media plateform uses the sentimental analyses to earn money. 
+<br>
+
+
+
 
 
