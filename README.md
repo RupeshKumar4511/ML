@@ -418,7 +418,130 @@ called predictive mentainance.
 Most of the social media plateform uses the sentimental analyses to earn money. 
 <br>
 
-
+# ML Development Life cycle (MLDLC): 
+It is set of guidelines which we should follow while developing the ML based software product. 
+<br>
+<b>1. Frame the problem : </b> 
+<br>
+We need to answer some questions before starting :
+<br>
+What is the problem exactly?
+<br>
+Who is our customer ?
+<br>
+What is the cost for developing such product ?
+<br>
+How many manpowers are needed to develop such product ?
+<br>
+How end product looks like ?
+<br>
+which ML model is needed to implement whether supervised or Unsupervised ?
+<br>
+Whether ML model will run in offline or online mode ? 
+<br>
+Which type of algorithm will be used ?
+<br>
+Where the data comes from ?
+<br>
+<br>
+<b>2. Gethering Data : </b>
+<br>
+In company level ML project we get the data from various resource : 
+<br>
+From CSV files,
+<br>
+By "making api calls" and "web scraping",
+<br>
+Sometimes data are stored in company's database but we cannot direction run our model on that databases 
+becauese if any fault occurs in database then websites/apps can be down. In this case, We need to create
+data warehouse. From this data warehouse we fetch the data. 
+<br>
+Sometimes data are stored in clustores (Big data) and in this case, we need to fetch data from there. 
+<br>
+<br>
+<b>3. Data preprocessing : </b>
+<br>
+Intially data does not clean. So we need to preprocessing these data. 
+<br>
+Following steps are done at this stage  :
+<br>
+Remove duplicates 
+<br>
+Remove missing values,
+<br>
+Remove outliers,
+<br>
+Scale up/down the column's value. 
+<br>
+<br>
+<b>4. Exploratory Data Analysis : </b>
+<br>
+Here we analyze the data and extract the relationship between different variables. 
+<br>
+Here, we plot grap for visulization,
+<br>
+Here, we do univariate analysis which means independent analysis on each column - mean, standard deviation, 
+which curve is followed. We also do bivariate analysis which means analysis on two different column. 
+Sometimes we also do multi-variants analysis. 
+<br>
+Outliers detections
+<br>
+Balance the Imabalance the data. Imabalance data means there is unequal amount of data in two columns like if 
+we do classification problem like dog and cat classification.
+<br>
+At this stage, we have good understanding about our data. 
+<br>
+<br>
+<b>5. Feature Engineering and Selection : </b>
+<br>
+Suppose we are working on house dataset which contains 1000 input columns. 
+like two columns are - "No_Of_Rooms" and "No_Of_Bathrooms" then we create a column "Square_fit_area" using 
+these two columns and then removes those two columns. This is called Feature Extraction. This is done because 
+in bunch of input, there are some inputs on which result never depends and In such we also feature selection 
+in which few inputs are selected to train a model. 
+<br>
+<br>
+<b>6. Model Training, Evaluation and Selection : </b>
+<br>
+Here we apply different ML algorithms our model and then we evaluate model using different type of matrix like 
+MSE(mean-squared-error) in case of linear Regression and this evaluation helps us to choose the best model. 
+And then we do model selection in which we tune the best model algorithm parameters (parameters means setting)
+so that it performs better. This is also called Hyper-Parameter-Tuning. 
+<br>
+A term called "Ensemble Learning" in which we combines multiple ML algorithm and make a powerful algorithm 
+which increase the performance of our model. 
+<br>
+<br>
+<b>7. Model Deployment : </b>
+<br>
+Here we need to integrate the model with some web app or mobile apps so that it serves the users.
+<br>
+Here we generate a binary file from model and then we create api and when user send the correct input to 
+api endpoint then api sends the input to that binary file and then this file predicts and then it send predicted
+data to api and then api send response to the user. 
+<br>
+Then we deploy this websites or mobile apps on server.
+<br>
+<br>
+<b>8. Testing : </b>
+<br>
+At this stage, we perform Beta testing (testing made by trusted customers).
+<br>
+Here, we also perform "A/B Testing" which tells whether our model works good or not and if not then 
+we repeat previous steps. 
+<br>
+<br>
+<b>9. Optimize : </b>
+<br>
+If we found that our model works good in "A/B Testing" then we move ahead and optimize several things : 
+<br>
+We took backup of our model and data. 
+<br>
+We setup rollback service. 
+<br>
+We setup loadbalancing. 
+<br>
+We decide how frequently we will retrain our model.
 
 
 
