@@ -543,5 +543,33 @@ We setup loadbalancing.
 <br>
 We decide how frequently we will retrain our model.
 
+# Tensors : 
+Tensor is a data structure which is mostly used in ML and DL. 
+<br>
+It is mostly used to store numbers but sometime it is used to store characters and strings. 
+<br>
+<b>0D Tensor/Scaler : </b>
+<br>
+np.array(3) :  is called scalers or 0D Tensors. 
+<br>
+<b>1D Tensor/Vector/1D array : </b>
+<br>
+np.array([1,2,3,4]) :  is called 1-D tensor and vector.
+<br>
+Note : Here the dimension of this vector is 4. Dimension of vector depends on no of element in a matrix.
+<br>
+Note: Dimensions is equal to no of axes and no of axes is equal to rank. 
+And shape of tensor is the order of matrix or array. 
+And size of tensor is No of elements in a matrix.
+<br>
+<b>2D Tensor/Matrices : </b>
+<br>
+np.array([[1,2,3],[4,5,6]]) : is called 2-D Tensor or Matrix. 
+<br>
+<b>ND Tensor : </b>
+<br>
+nd array is called ND Tensor. 
+<br>
+
 
 
