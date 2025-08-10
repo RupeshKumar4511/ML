@@ -15,7 +15,7 @@ knowledge-based System: This a set of programs which contains multiple if-else c
 Expert System: This is also a set of programs (or we can say decision-making system) which are made by taking the knowledge of any expert.
 Example :  Apps in which we can play chess with an expert. 
 <br>
-Disadvantage of Expert System : It is applicable of closely-related problem. 
+Disadvantage of Expert System : It is applicable on closely-related problem. 
 <br>
 Machine Learning solves the problem of expert system. 
 
@@ -37,13 +37,13 @@ Example : Checking the email is spam or not.
 Analizing the data by plotting graphs. 
 
 # Data Mining : 
-Important use case of ml . 
+Important use case of ML . 
 <br>
 Data mining is to create a prediction model by applying the machine learning algorithm. 
 <br>
 This prediction model gives us some pattern. 
 <br>
-Example : Email span classifying. 
+Example : Email spam classifying. 
 
 # Disadvantage of ML : 
 1. We need to specify the features of input that we give to our system. 
@@ -79,10 +79,10 @@ It is further divided into two types :
 <br>
 (I) Regression : 
 <br>
-When we have a dataset which contains input and output but the type of output is numerical. 
+When we have a dataset which contains input and output but the type of output is numeric. 
 <br>
-Example : Suppose we have a dataset which has three columns where first 2 columns are input and third column is output. First column is "IQ", second column is "CGPA" and third 
-column is "Placement Package". 
+Example : Suppose we have a dataset which has three columns where first 2 columns are input and third column is 
+output. First column is "IQ", second column is "CGPA" and third column is "Placement Package". 
 <br>
 (II) Classfication : 
 <br>
@@ -104,14 +104,15 @@ In Clustering we make N-dimensional clustors from the dataset.
 <br>
 Its main goal is to group similar data points together based on their features.  
 <br>
-Example : Suppose we have a dataset which has two columns where first column is "IQ",second column is "CGPA" then we can plot a graph using these inputs and get some 
-information. For Example: Identify the category of student who has maximum IQ and Max CGPA.
+Example : Suppose we have a dataset which has two columns where first column is "IQ",second column is "CGPA" 
+then we can plot a graph using these inputs and get some information.
+For Example: Identify the category of student who has maximum IQ and Max CGPA.
 <br>
 
 (II) Dimensionality Reduction : 
 <br>
 In some problem of Supervised Learning, we  have a lot of input columns in dataset then 
-Supervised learning algorithm will be slow down. In such problem Dimensionality 
+Supervised learning algorithm is slow down. In such problem Dimensionality 
 Reduction remove the unnecassary columns.
 <br>
 Example : Suppose we are working on house dataset which contains 1000 input columns.
@@ -127,18 +128,22 @@ these dimensions to 2-3 dimensions.
 
 (III) Anomaly Detection : 
 <br>
-The main function of the Anomaly Detection is to detect the unexpected behavior in the
-system.
+The main function of the Anomaly Detection is to detect the unexpected behavior in the system.
 <br> 
-Example : Loan Approval Anomaly.
+Example : Loan Approval Anomaly. 
+<br>
+When we apply for a loan to any bank then there are types of profile verification is done. 
+first verification is done by using ML algorithm. ML Engineers compare our profile with some previous defaulters
+who did not payback the money. If there is strong correlation between them and us then our loan will be 
+rejected. If there is less correlation then a manual verification is done by bank employee and loan will be 
+sanctioned.
 <br>
 (IV) Association Rule Learning : 
 <br>
 A type of Unsupervised Learning where we fetch the useful information from dataset 
 (data mining) and draw conclusion. 
 <br>
-Its main goal is to find the relationship or patterns between variables in the 
-large dataset.
+Its main goal is to find the relationship or patterns between variables in the large dataset.
 <br>
 Example: In super market, how the things are placed so that company can get maximum profit.
 It is very difficult to place the things at correct positions. In such case we can use 
@@ -167,7 +172,7 @@ In Reinforcement learning we have no data.
 <br>
 In Reinforcement learning, there is an agent and agent has some policy(Rule book) and 
 agents needs to live in an environment. On every correct action of agent, it gets some
-positive points and every incorrect actions, it gets negative points. In this way agent 
+positive points and on every incorrect actions, it gets negative points. In this way agent 
 learns from data and update its policy. 
 <br>
 Example : self driving car, Go game solver etc. 
@@ -175,25 +180,24 @@ Example : self driving car, Go game solver etc.
 For self-driving-car, the environment is road. 
 
 
-<br>
-<br>
-<br>
 
 # Types of ML : 
-On the basis of how ML models behaves in production environment, ML is of two types :
+On the basis of how ML models behaves in production environment, It is of two types :
 <br>
 <br>
 
-<b>1.Batch Ml / Offline Learning : </b> 
+<b>1.Batch ML / Offline Learning : </b> 
 <br>
-It is the conventional approach where a model is trained using the entire available dataset at once. The training process happens offline, meaning the model does not learn or update in real time. Once trained, the model is deployed and used for inference on new data without further training. This is its main disadvantage.
+It is the conventional approach where a model is trained using the entire available dataset at once. The training process happens offline, meaning the model does not learn or update in real time. Once trained, the model is deployed and used for prediction on new data without further training. This is its main disadvantage.
 <br>
-Note : We can pull down the model from the server and add new data to it and train model again and then deployed on 
-the server again. This cycle can be repeated after some time like after 24 hrs. 
+Note : We can pull down the model from the server and add new data to it and train model again and then 
+deployed on the server again. This cycle can be repeated after some period of time like after 24 hrs. 
 <br>
 It is used where there is no concept drift. like : Image-Classification etc. 
 <br>
-Tools used : scikit-learn, tensorflow, Pytorch.
+No Concept Drift: It means the condition for predicting the output based on input will never changed in future. 
+<br>
+Tools used : scikit-learn, tensorflow, Pytorch,etc.
 <br>
 Disadvantage of Batch ML : 
 <br>
@@ -201,11 +205,11 @@ Loss of data : When data becomes so large like Big data which cannot be processe
 train Ml model. 
 <br>
 Hardware Limitation : suppose when we do not have instant connectivity with our ML model. In this case,
-we cannot able to instantly update and deployed to the server and it will reach to users. 
+we cannot able to instantly update and deployed ML to the server and it will reach to users. 
 <br>
-Availability : suppose when we are working social media application which shows the content on the basis of 
+Availability : suppose when we are working on social media application which shows the content on the basis of 
 user's interest. suppose an unexpected event occurs like "demonetization" then everyone shows their interest 
-in demonetization but our ML model will upadte data after some period of time (it can be 24 hrs or else). 
+in demonetization but our ML model will upadte data after some period of time (it can be 24hrs or else). 
 
 <br>
 <br>
@@ -253,10 +257,10 @@ deployed model to server. This concept is called Out of core Learning.
 <b>Disadvantage of Online ML : </b>
 <br>
 1. Tricky to use : There are few libraries which we can use to train model. For the 
-enterprized application,where the data is so large, it is difficult to process these data 
+enterprized application, where the data is so large, it is difficult to process these data 
 to train model using these libraries.  
 <br>
-2. Risky : If the behavior of our model depends on incoming request and suppose if anyone hackes the incoming 
+2. Risky : If the behavior of our model depends on incoming request and suppose if anyone hacks the incoming 
 request then it is risky for our model because it can make our model biased. 
 <br>
 To prevent model from this risk, there should be monitoring system which continuously monitors the incoming 
@@ -292,21 +296,21 @@ In company level ML project we get the data by "making api calls" and "web scrap
 Fetching the data by these two methods can cause many problems. 
 <br>
 <b>2. Insufficient Data / Labelled Data  :</b>
-If we have Insufficient data then we may faces many difficulties to train a model. 
+If we have Insufficient data then we may face many difficulties to train a model. 
 <br>
 Getting the labelled data is also very costly. 
 <br>
 Note : When we have enough data then it does not matter which algorithm we are using. 
 And this is called Unreasonable Effectiveness of data. 
 <br>
-But in present gathering enough data in proper format is very tricky. So algorithm matter. 
+But in present gathering enough data in proper format is very tricky. So algorithm matters. 
 <br>
 <b>3. Non Representative data : </b>
 <br>
 If we have not complete dataset then our model will not give more accuracy. This is also 
 called Sampling Noise. 
 <br>
-Sometimes data can be biased which also called sampling bias. for Example : We coducted a 
+Sometimes data can be biased which is also called sampling bias. for Example : We coducted a 
 survey to know who will win T-20 World-Cup in which we took response from all countries 
 who will participate in the World-Cup. But in this survery, most people vote for "India"
 because these people supports india which lives in India as well as in other country.
@@ -351,6 +355,7 @@ Server cost of Ml model is generally very high.
 
 # Application of ML : 
 <b>Application of ML in B2C (Business to Customer)   : </b>
+<br>
 1. Youtube uses ML to suggest videos. 
 <br>
 2. Facebook/Instagram uses ML to give friend recommendation. 
@@ -407,7 +412,7 @@ ML is also used in google map.
 In Tesla company, automobiles are made by robots. Tesla cars are booked six months before it actually
 manufactured. So the company works by following some schedule and suppose one day a robot whose job is to place 
 the engine in the car is malfunction then on that day no cars will be made and it is big loss for that company
-because they are following schedule. To prevent from these type of risk they fixed "IOT" device is fixed in
+because they are following schedule. To prevent from these type of risk they fixed "IOT" device in
 robots which continuously moniters their pressure,rpm etc. We know faults occurs gradually in any machine. 
 And if any anomalous behaviour detected in any robot then those robots will be fixed by engineers. This is 
 called predictive mentainance.
@@ -452,11 +457,11 @@ From CSV files,
 <br>
 By "making api calls" and "web scraping",
 <br>
-Sometimes data are stored in company's database but we cannot direction run our model on that databases 
+Sometimes data are stored in company's database but we cannot directily run our model on that databases 
 becauese if any fault occurs in database then websites/apps can be down. In this case, We need to create
 data warehouse. From this data warehouse we fetch the data. 
 <br>
-Sometimes data are stored in clustores (Big data) and in this case, we need to fetch data from there. 
+Sometimes data are stored in clusters (Big data) and in this case, we need to fetch data from there. 
 <br>
 <br>
 <b>3. Data preprocessing : </b>
@@ -478,7 +483,7 @@ Scale up/down the column's value.
 <br>
 Here we analyze the data and extract the relationship between different variables. 
 <br>
-Here, we plot grap for visulization,
+Here, we plot graph for visulization,
 <br>
 Here, we do univariate analysis which means independent analysis on each column - mean, standard deviation, 
 which curve is followed. We also do bivariate analysis which means analysis on two different column. 
@@ -503,7 +508,7 @@ in which few inputs are selected to train a model.
 <br>
 <b>6. Model Training, Evaluation and Selection : </b>
 <br>
-Here we apply different ML algorithms our model and then we evaluate model using different type of matrix like 
+Here we apply different ML algorithms on our model and then we evaluate model using different type of matrix like 
 MSE(mean-squared-error) in case of linear Regression and this evaluation helps us to choose the best model. 
 And then we do model selection in which we tune the best model algorithm parameters (parameters means setting)
 so that it performs better. This is also called Hyper-Parameter-Tuning. 
@@ -525,7 +530,7 @@ Then we deploy this websites or mobile apps on server.
 <br>
 <b>8. Testing : </b>
 <br>
-At this stage, we perform Beta testing (testing made by trusted customers).
+At this stage, we perform Beta testing (testing performed by trusted customers).
 <br>
 Here, we also perform "A/B Testing" which tells whether our model works good or not and if not then 
 we repeat previous steps. 
@@ -556,11 +561,14 @@ np.array(3) :  is called scalers or 0D Tensors.
 <br>
 np.array([1,2,3,4]) :  is called 1-D tensor and vector.
 <br>
-Note : Here the dimension of this vector is 4. Dimension of vector depends on no of element in a matrix.
-<br>
 Note: Dimensions is equal to no of axes and no of axes is equal to rank. 
 And shape of tensor is the order of matrix or array. 
 And size of tensor is No of elements in a matrix.
+<br>
+Here, dimension of this tensor is 1 and it'shape is (1,4) and it's size is 4. 
+<br>
+Note : Here the dimension of this vector is 4. Dimension of vector depends on no of element in a matrix.
+because this vector can be represented as [1,0,0,0], [0,2,0,0], [0,0,3,0],[0,0,0,4].
 <br>
 <b>2D Tensor/Matrices : </b>
 <br>
