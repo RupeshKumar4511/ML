@@ -581,3 +581,97 @@ nd array is called ND Tensor.
 
 
 
+# How to Frame a Machine Learning Problem : 
+<b>step 1 : Converion of Business problem to ML problem. </b>
+<br>
+First of all we need to convert the business problem into mathematical problem. 
+<br>
+Example : A Business problem of an OTT plateform "Netflix" is : Increase revenue. 
+<br>
+Revenue can be increased by three ways : 
+<br>
+(I) Increase new customer. And It is very difficult to increase new customer.
+<br>
+(II) Demand for high charge from existing customer. And it is wrong.
+<br>
+(III) Decrease the no of users who are going to left the platform. This can be right approach. 
+<br>
+So we choose third way and try to decrease the churn rate. 
+<br>
+Churn rate is the annual percentage rate at which customers stop subscribing to a service. 
+<br>
+Like current churn rate is 4 and we try to decrease to 3.75. Now this is a mathematical problem. 
+<br>
+<b>step 2. Identify the type of problem </b>
+<br>
+In this step, we have to see big pictures like
+<br>
+Prediction: Identify the users who are going to left the platform ? 
+<br>
+Now we can say it is a classification problem of supervised learning where we need to find out whether user are 
+going to leave the platform or not.  
+<br>
+What will the end product ? or what we can do to stop the users to leave the plateform ?
+<br>
+Immediate plan can be to give discount to those users who are going to leave the platform. 
+<br>
+But here the problem is if we give same percent of discount to all users who are going to leave the platform 
+then it can be a great loss for that company. There may be some users whose probability to leave the plateform
+is less or high or very high. 
+<br>
+Now we understood that this is a Regression problem not classification problem in which we need to identify the 
+probability to leave platform for those users who are going to leave the platform. 
+<br>
+Our long term plan can be to identify the problem of users that why user is going to leave the platform ?
+<br>
+This problem can be high subscription price, internet issues, UI navigation for very old people etc. 
+<br>
+<b>step 3.</b>
+<br>
+Current Solution 
+<br>
+In this step, We need to communicate with CTO to know whether is there any current solution.
+<br>
+In this problem the current solution can be a team who is already working on a model which calculates the 
+churn-rate. so we can start from there. 
+<br>
+<b>Step 4: Getting Data </b> 
+<br>
+Here, we need data to make prediction model which gives information about users who are going to leave the 
+platform. 
+<br>
+Here, we need to identify the data which are required : 
+<br>
+(I) watch time 
+<br>
+(II) Search but did not find.
+<br>
+(III) Content left in the middle.
+<br>
+(IV) Clicked on recommendation (order of recommendation)
+<br>
+So in this step, we need data engineers who will fetch these data from application database(OLTP) by creating
+warehouse. 
+<br>
+<b>step 5. Metrics to measure : </b>
+<br>
+In this step, we need to define the metrices whether we are going into right direction or not. 
+<br>
+So here, we can check the differece between the current churn-rate and previous churn-rate before discount and 
+suppose if the differece is 0.25 then it means we are going into right direction
+<br>
+We also check whether the users who are going to left the plateform has left or other users. 
+<br>
+<b>step 6. Online Vs Batch :</b>
+<br>
+In this step, we have to decide whether we train the model offline or online. 
+<br>
+In this problem, we would prefer to go with online because there is case of concept drift or condition is 
+volatile. 
+<br>
+<b>step 6 : Check Assumptions </b>
+<br>
+In this step, we need to check multiple asssumptions. 
+<br>
+One of the assumption can be : whether this model will be applicable on all country or we should make 
+geographically based model. 
