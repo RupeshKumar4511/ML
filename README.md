@@ -669,9 +669,22 @@ In this step, we have to decide whether we train the model offline or online.
 In this problem, we would prefer to go with online because there is case of concept drift or condition is 
 volatile. 
 <br>
-<b>step 6 : Check Assumptions </b>
+<b>step 7 : Check Assumptions </b>
 <br>
 In this step, we need to check multiple asssumptions. 
 <br>
 One of the assumption can be : whether this model will be applicable on all country or we should make 
 geographically based model. 
+
+# Data Gathering : 
+1. CSV Files from multiple platform like Kaggle. 
+<br>
+Google_colab_like : https://colab.research.google.com/drive/1pKaSxPYDbH0KnLTLwtUXNlhETNoTSwxe?usp=sharing
+<br>
+2. JSON/SQL data 
+<br>
+3. Fetch data from any website server. 
+<br>
+4. Get data by WebScraping. 
+
+
