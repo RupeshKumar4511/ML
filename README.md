@@ -679,9 +679,11 @@ geographically based model.
 # Data Gathering : 
 1. CSV Files from multiple platform like Kaggle. 
 <br>
-Google_colab_like : https://colab.research.google.com/drive/1pKaSxPYDbH0KnLTLwtUXNlhETNoTSwxe?usp=sharing
+Google_colab_link : https://colab.research.google.com/drive/1pKaSxPYDbH0KnLTLwtUXNlhETNoTSwxe?usp=sharing
 <br>
 2. JSON/SQL data 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1h1KUHH66M0e5w8k2Eyjx-UFMNW_UXJnN?usp=sharing
 <br>
 3. Fetch data from any website server. 
 <br>
