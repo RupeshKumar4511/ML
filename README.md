@@ -685,7 +685,9 @@ Google_colab_link : https://colab.research.google.com/drive/1pKaSxPYDbH0KnLTLwtU
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1h1KUHH66M0e5w8k2Eyjx-UFMNW_UXJnN?usp=sharing
 <br>
-3. Fetch data from any website server. 
+3. Fetch data from any api. 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1rZ9UkYvNp3wpcl1CBtqmD0qJdpQwiSlv?usp=sharing
 <br>
 4. Get data by WebScraping. 
 
