@@ -690,5 +690,5 @@ Google_colab_link : https://colab.research.google.com/drive/1h1KUHH66M0e5w8k2Eyj
 Google_colab_link : https://colab.research.google.com/drive/1rZ9UkYvNp3wpcl1CBtqmD0qJdpQwiSlv?usp=sharing
 <br>
 4. Get data by WebScraping. 
-
-
+<br>
+Google_colab_link: https://colab.research.google.com/drive/1dVkRa2SYnNcEIj2EcjiXn14volnBUNsm?usp=sharing
