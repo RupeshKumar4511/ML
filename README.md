@@ -692,3 +692,10 @@ Google_colab_link : https://colab.research.google.com/drive/1rZ9UkYvNp3wpcl1CBtq
 4. Get data by WebScraping. 
 <br>
 Google_colab_link: https://colab.research.google.com/drive/1dVkRa2SYnNcEIj2EcjiXn14volnBUNsm?usp=sharing
+
+
+# Understanding Data : 
+First of all we have to ask basic questions like : 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1eTlsVa7kE0MlDnjzMt-hBNdAsIQkW6QA?usp=sharing
+<br>
