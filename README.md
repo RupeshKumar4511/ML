@@ -487,7 +487,7 @@ Here, we plot graph for visulization,
 <br>
 Here, we do univariate analysis which means independent analysis on each column - mean, standard deviation, 
 which curve is followed. We also do bivariate analysis which means analysis on two different column. 
-Sometimes we also do multi-variants analysis. 
+Sometimes we also do multi-variats analysis. 
 <br>
 Outliers detections
 <br>
@@ -695,7 +695,12 @@ Google_colab_link: https://colab.research.google.com/drive/1dVkRa2SYnNcEIj2EcjiX
 
 
 # Understanding Data : 
-First of all we have to ask basic questions like : 
+This step is a combination of Data preprocessing and EDA.
+<br>
+To understand data, first of all we have to ask some basic questions like : 
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1eTlsVa7kE0MlDnjzMt-hBNdAsIQkW6QA?usp=sharing
 <br>
+Univariate Analysis (a part of EDA) : 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1ydt1TJpqWoZQtTKRKbgOg2lZwJwixO7Z?usp=sharing
