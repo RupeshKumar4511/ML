@@ -701,6 +701,18 @@ To understand data, first of all we have to ask some basic questions like :
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1eTlsVa7kE0MlDnjzMt-hBNdAsIQkW6QA?usp=sharing
 <br>
+After understanding data, we can preprocess the dataset like : 
+<br>
+Removing duplicates 
+<br>
+Removing missing values,
+<br>
+Removing outliers
+<br>
 Univariate Analysis (a part of EDA) : 
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1ydt1TJpqWoZQtTKRKbgOg2lZwJwixO7Z?usp=sharing
+<br>
+Bivariate and Multivariate Analysis : 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1-1Pt4XAkCIF_Cdw3A5kIwKSYLUtBMWNb?usp=sharing
