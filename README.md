@@ -716,3 +716,6 @@ Google_colab_link : https://colab.research.google.com/drive/1ydt1TJpqWoZQtTKRKbg
 Bivariate and Multivariate Analysis : 
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1-1Pt4XAkCIF_Cdw3A5kIwKSYLUtBMWNb?usp=sharing
+<br>
+ydata-profiling :
+Google_colab_link : https://colab.research.google.com/drive/1LnMFRvgQpxQQKArDczSODD7c8linZYE_?usp=sharing 
