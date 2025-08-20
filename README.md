@@ -719,3 +719,69 @@ Google_colab_link : https://colab.research.google.com/drive/1-1Pt4XAkCIF_Cdw3A5k
 <br>
 ydata-profiling :
 Google_colab_link : https://colab.research.google.com/drive/1LnMFRvgQpxQQKArDczSODD7c8linZYE_?usp=sharing 
+
+# Feature Engineering : 
+It is the process of using domain knowledge to extract features from raw data. These features can be used to
+improve the performance of ML algorithm.
+<br>
+Feature Engineering is divided into 4 categories :
+<br>
+<b>1. Feature Transformation : </b>
+<br>
+It refers to changing the representation/scale of existing features without creating new ones.
+<br>
+It is the first step of Feature Engineering.
+<br>
+Techniques of features transformation:
+<br>
+(I) Missing Value Imputation : We have to do missing value Imputation because scikit-learn library does not 
+accept missing values. so we need to replace them with mean or most occurance values. 
+<br>
+(II) Handling categorical values : 
+<br>
+Scikit-learn library does not accept the string values it only accept the numerical value. so we have convert 
+it into numerical. And sometime we need to convert the numerical values into categories like we do binning 
+with age column. 
+<br>
+(III) Outlier Detection : 
+<br>
+We also detect the outliers in the given dataset and then we remove them.
+<br>
+(IV) Features Scaling : 
+<br>
+We also need to scale-up or scale-down the features to a range like [-1,1]. 
+<br>
+<b>2. Feature Construction : </b>
+<br>
+It refers to creating new features from existing ones using domain knowledge or math.
+<br>
+Examples:
+<br>
+From Height and Weight → create BMI.
+<br>
+<b>3. Feature Selection : </b>
+<br>
+It refers to choosing a subset of features that are most relevant for the model.
+<br>
+It also reduces the dimension of dataset.
+<br>
+This is used while working on high-dimensional data.
+<br>
+<b>4. Feature Extraction : </b>
+<br>
+It refers to extracting new feature from given features programmatically by transforming raw data into lower dimensions (often automatically).
+<br>
+This is used while working on high-dimensional data.
+<br>
+Methods:
+<br>
+PCA (Principal Component Analysis) → linear combinations of features.
+<br>
+t-SNE / UMAP → nonlinear dimensionality reduction.
+<br>
+Examples:
+<br>
+Suppose we are working on house dataset which contains 1000 input columns where first two input columns are - 
+"No_Of_Rooms" and "No_Of_Bathrooms" and third output column is price then we can extracts a new column 
+"Square_fit_area" using these two columns and then removes those two columns. This is called Feature Extraction.
+It reduces the dimension of dataset. 
