@@ -785,3 +785,21 @@ Suppose we are working on house dataset which contains 1000 input columns where 
 "No_Of_Rooms" and "No_Of_Bathrooms" and third output column is price then we can extracts a new column 
 "Square_fit_area" using these two columns and then removes those two columns. This is called Feature Extraction.
 It reduces the dimension of dataset. 
+
+# Feature Scaling : 
+It is a technique to standardize the independent features present in the data in a fixed range.
+<br>
+<b>Why we need feature scaling : </b>
+<br>
+Suppose we have a dataset which contains 3 columns - age, salary and Purchased. Here if we use the KNN algorithm
+which calculates the distance between two points. But age values is very small as compared to salary which decrease the performance of algorithm. So we need to scale up or down the the feature's values. 
+<br>
+<b>Types of Feature Scaling : </b>
+<br>
+<b>1. Standardization : </b> 
+<br>
+It is also called z-score Normalization. when we standardize our dataset then the mean of each feature of 
+transformed dataset will be approx 0 and standard deviation will be approx 1. But still dataset contains 
+outliers if it has.  
+<br>
+<b>2. Normalization  : </b>
