@@ -803,3 +803,97 @@ transformed dataset will be approx 0 and standard deviation will be approx 1. Bu
 outliers if it has.  
 <br>
 <b>2. Normalization  : </b>
+
+# Outliers : 
+Outliers are data points that deviate significantly from the normal pattern or distribution of the rest of the 
+dataset.
+<br>
+Outliers are not always dangerous. sometime they are useful. 
+<br>
+<b>When is outlier dangerous : </b>
+<br>
+Suppose We are collecting the data about Age. Someone enter his age 300 which is pure outlier so in this case,
+we have to remove or improve it.
+<br>
+<b>When is outlier important : </b>
+<br>
+Suppose there is a mismanagement in credit card transaction then bank employee will try to find out the 
+outlier. so in this case outlier is important. 
+<br>
+It is very difficult to decide what to do with outliers in different scenerio. 
+
+# Effect of Outliers on ML algorithm : 
+There are certain ML algorithm whose performance will decrease if there is any outliers in the dataset. 
+<br>
+1. Linear Regression
+<br>
+2. Logestic Regression 
+<br>
+3. Adaboost 
+<br>
+4. Deep Learning algorithm
+<br>
+Note : In these algorithms, we need to find the Weight. 
+
+# How to treat Outliers  :
+There are mainly two ways to deal with outliers. 
+<br>
+<b>1. Trimming : </b>
+<br>
+Remove outliers completely. 
+<br>
+<b>Disadvantage of Trimming : </b>
+<br>
+If dataset contains very large amount of outliers then our dataset can be thin. 
+<br>
+<b>Advantage of Trimming : </b>
+It is very fast. 
+<br>
+<b>2. Capping : </b>
+<br>
+In capping, we fix the upper and lower value for a column of dataset. And if any value greater than upper value
+or  less than lower value then we assign some suitable value. 
+<br>
+Other ways to deal with outliers are : 
+<br>
+Assume outliers as missing value. 
+<br>
+Discreatization : creating bins
+
+# How to detect outliers in column of dataset  : 
+1. If distribution of column is normal and if the value is greater than (µ+3σ) or less than (µ-3σ) than it 
+means column has outlier. 
+<br>
+2. If distribution of column is skewed then we use Minimum and Maximum from a boxplot to identify the outliers.
+<br>
+3. Percentile distribution 
+
+# Techniques for outlier detection and Removal : 
+Zscore treatment : 
+<br>
+IQR based filtering : 
+<br>
+Percentile: 
+<br>
+Winsorization : 
+
+# Z-Score outlier Detection and Removal method: 
+For this method there is an assumption that the particular columnn must be normally distributed or almost
+normally distributed. 
+<br>
+Outlier treatment : 
+<br>
+Trimming : Remove the outliers from the column. 
+<br>
+Capping : Replace the outliers with maximum and minimum value from Normal Distribution. 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1K73QxgJad9kfpC6vqabgpW1HJoh1RkpB?usp=sharing
+
+# Outlier Detection Using IQR And Removal method: 
+For this method there is an assumption that the particular columnn must be skewedly distributed. 
+<br>
+100 percentile means Maximum value. 
+<br>
+0 percentile means minimum value. 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1K73QxgJad9kfpC6vqabgpW1HJoh1RkpB?usp=sharing
