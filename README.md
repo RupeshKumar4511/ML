@@ -890,10 +890,26 @@ Capping : Replace the outliers with maximum and minimum value from Normal Distri
 Google_colab_link : https://colab.research.google.com/drive/1K73QxgJad9kfpC6vqabgpW1HJoh1RkpB?usp=sharing
 
 # Outlier Detection Using IQR And Removal method: 
-For this method there is an assumption that the particular columnn must be skewedly distributed. 
+For this method there is an assumption that the particular column must be skewedly distributed. 
 <br>
 100 percentile means Maximum value. 
 <br>
 0 percentile means minimum value. 
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1K73QxgJad9kfpC6vqabgpW1HJoh1RkpB?usp=sharing
+
+# Logestic Regression : 
+It is a classification technique used in supervised learning. 
+<br>
+Intutition behind it : Geometry based(prefered) and probability based.
+<br>
+It is named as Logestic Regression because it is very similar to linear Regression. 
+<br>
+Perceptron is used in Deep learning which it is very similar to Logestic Regression. 
+<br>
+To use Logestic Regression, there are lot of assumption to be taken : 
+<br>
+(I) Data should be linearly separable. 
+<br>
+(II) It is mostly used for binary classification.
+
