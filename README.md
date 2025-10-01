@@ -898,6 +898,25 @@ For this method there is an assumption that the particular column must be skewed
 <br>
 Google_colab_link : https://colab.research.google.com/drive/1K73QxgJad9kfpC6vqabgpW1HJoh1RkpB?usp=sharing
 
+# Linear Regression (LR): 
+It is a Regression technique used in supervised learning. 
+<br>
+What Linear Regression does : 
+<br>
+It draws a best fit line which passes very closely to all data points of the given dataset.
+<br>
+There are three type of LR : 
+<br>
+1. Simple LR : In this algorithm, we have such type of dataset which has one input and output column.
+<br>
+2. Multiple LR : In this algorithm, we have such type of dataset which has many input and one output column.
+<br>
+3.Polynominal LR : This algorithm works when the dataset is not linear.
+<br>
+Note : Real-World Dataset is not completely linear but sort of linear because of stochastic error. 
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1Nt7eUFH-wI_5nGWuJLjtUvXFmMnSmmje?usp=sharing
+
 # Logestic Regression : 
 It is a classification technique used in supervised learning. 
 <br>
