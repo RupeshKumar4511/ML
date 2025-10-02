@@ -909,13 +909,19 @@ There are three type of LR :
 <br>
 1. Simple LR : In this algorithm, we have such type of dataset which has one input and output column.
 <br>
+Google_colab_link : https://colab.research.google.com/drive/1Nt7eUFH-wI_5nGWuJLjtUvXFmMnSmmje?usp=sharing
+<br>
+Google_colab_link : https://colab.research.google.com/drive/10ImcoZ54av3Db5GmjXrgVrWi0KLAgJvT?usp=sharing
+<br>
 2. Multiple LR : In this algorithm, we have such type of dataset which has many input and one output column.
+<br>
+Google_colab_link : https://colab.research.google.com/drive/1al4kE_8jL2ZWQYvKHW6x0Shf0KdiqGiu?usp=sharing
 <br>
 3.Polynominal LR : This algorithm works when the dataset is not linear.
 <br>
 Note : Real-World Dataset is not completely linear but sort of linear because of stochastic error. 
 <br>
-Google_colab_link : https://colab.research.google.com/drive/1Nt7eUFH-wI_5nGWuJLjtUvXFmMnSmmje?usp=sharing
+
 
 # Logestic Regression : 
 It is a classification technique used in supervised learning. 
