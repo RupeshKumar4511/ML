@@ -921,7 +921,7 @@ Google_colab_link : https://colab.research.google.com/drive/1al4kE_8jL2ZWQYvKHW6
 <br>
 Note : Real-World Dataset is not completely linear but sort of linear because of stochastic error. 
 <br>
-
+Google_colab_link : https://colab.research.google.com/drive/11kk_hPVRLmIzg3KQVnmANBuUW5LZLx0x?usp=sharing
 
 # Logestic Regression : 
 It is a classification technique used in supervised learning. 
