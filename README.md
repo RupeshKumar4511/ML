@@ -802,7 +802,11 @@ It is also called z-score Normalization. when we standardize our dataset then th
 transformed dataset will be approx 0 and standard deviation will be approx 1. But still dataset contains 
 outliers if it has.  
 <br>
+Google_Colab_Link : https://colab.research.google.com/drive/1M7KqMs9sVQ4qxWTcGi9dSsKuFYrvn2L_?usp=sharing 
+<br>
 <b>2. Normalization  : </b>
+<br>
+Google_Colab_Link : https://colab.research.google.com/drive/1gFzhoPhcVrBf4IDihF6NTdTHEjdHnjOA?usp=sharing
 
 # Outliers : 
 Outliers are data points that deviate significantly from the normal pattern or distribution of the rest of the 
