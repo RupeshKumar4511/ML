@@ -941,4 +941,32 @@ To use Logestic Regression, there are lot of assumption to be taken :
 (I) Data should be linearly separable. 
 <br>
 (II) It is mostly used for binary classification.
+<br>
+Google_Colab_Link : https://colab.research.google.com/drive/13FZDAG8Ns2RIvXXKW77A_WnIGTC_B2--?usp=sharing 
 
+# Ridge Regression : 
+Google_Colab_Link: https://colab.research.google.com/drive/15GvNWQJU1o3vKe8wK5CrtE_jHGCCqASu?usp=sharing
+
+# Lasso Regression : 
+Google_Colab_Link : https://colab.research.google.com/drive/1GmKka7BvK7upZcAq3h6iUMHYI_QrY01w?usp=sharing
+
+# Decision Tree : 
+Google_Colab_Link : https://colab.research.google.com/drive/1JQUC9yvVFjJl7lT1TenptRP4zcc69VXF?usp=sharing 
+
+# Naive Bayes :
+Google_Colab_Link :  https://colab.research.google.com/drive/10xgYaKJzNf7qHkSBpVvfduoerep9C_S6?usp=sharing
+
+# KNN : 
+Google_Colab_Link : https://colab.research.google.com/drive/1qvyY0r2W_YHmwmDSsm1arQI14MRRY0JT?usp=sharing
+
+# SVM : 
+Google_Colab_Link : https://colab.research.google.com/drive/11F8lUWyHrl1Vts5-T1UEht0A7fijzf5T?usp=sharing
+
+# KMeans : 
+Google_Colab_Link : https://colab.research.google.com/drive/1_P5TBrORwROedngoVA3fEGvRIf4MNyKD?usp=sharing
+
+# Hierarchical Clustering : 
+Google_Colab_Link : https://colab.research.google.com/drive/1_tQTmLoA296gHUsVCi-IqHsqowQX42ia?usp=sharing
+
+# ANN : 
+Google_Colab_Link : https://colab.research.google.com/drive/17a7R4ccK6WYNBSA2bvthAsvAVNOh4lMP?usp=sharing
